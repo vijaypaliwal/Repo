@@ -11,6 +11,15 @@
 *
 */ 
 
+ .pagesList
+    {
+        list-style: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0px;
+        width: 98%;
+    }
+
 
 .ui-bar-a
     
@@ -3637,6 +3646,8 @@ body.ui-mobile-viewport, div.ui-mobile-viewport
     width: 100%;
     -moz-user-select: none;
     -webkit-user-select: none;
+    padding:14px;
+    font-size:15px;
     -ms-user-select: none;
 }
 
