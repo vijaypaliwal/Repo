@@ -11,8 +11,8 @@
 
 <div data-role="page">
     <div data-position="fixed" data-tap-toggle="false" id="Dishwasherheader" data-role="header">
-        <h1>Dishwasher menu</h1>
-         <a data-ajax="false" href="../../Menu.html" data-role="button" data-theme="b">menu</a>
+        <h1>Dishwasher</h1>
+         <a data-ajax="false" href="../../Menu.html" data-role="button" data-theme="b">Menu</a>
     </div>
 
 
@@ -29,7 +29,7 @@
         </div>
     </div>
     <div style="background-color:rgb(88,174,211) !important; padding:3px;" data-position="fixed" data-tap-toggle="false" id="" data-role="footer">  
-        <a  data-role="button" data-theme="b" style="float:left; margin-left:10px;" href="#">Prev</a>
+        <a  data-role="button" data-theme="b" style="float:left; margin-left:10px;" href="#" onclick="RedirectTow2();">Prev</a>
         <a  data-role="button" data-theme="b" style="float:right; margin-right:15px;" href="#" onclick="RedirectTow1();">Next</a>
 
     </div>
@@ -41,7 +41,7 @@
 
 <script>
     function RedirectTow2() {
-        window.location.href = "2.html";
+        window.location.href = "../../Menu.html";
     }
     function RedirectTow1() {
         window.location.href = "1.html";
